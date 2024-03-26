@@ -4,7 +4,7 @@ from torch import nn
 import torch.functional as F
 
 
-class Prunable(L.LightningModule):
+class ChannelPruning(L.LightningModule):
   def __init__(self) -> None:
     super().__init__()
 
